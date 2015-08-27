@@ -1,5 +1,5 @@
 {
-  "name": "conversations-container",
+  "name": "conversation-container",
   "version": "1.0.0",
   "authors": [
     "Anonymous <anonymous@example.com>"
@@ -13,7 +13,7 @@
   ],
   "main": "conversations-container.html",
   "license": "http://polymer.github.io/LICENSE.txt",
-  "homepage": "https://github.com/<USERNAME>/conversations-container/",
+  "homepage": "https://github.com/fxdeveloper-au/conversation-container/",
   "ignore": [
     "/.*",
     "/test/",
@@ -21,7 +21,10 @@
   ],
   "dependencies": {
     "polymer": "Polymer/polymer#^1.0.0",
-    "jquery": "components/jquery#~2.1.4"
+    "jquery": "components/jquery#~2.1.4",
+    "bank-fraud": "fxdeveloper-au/bank-fraud#~1.0.0",
+    "bank-loan-application": "fxdeveloper-au/bank-loan-application#~1.0.0",
+    "bpm-coach": "fxdeveloper-au/bpm-coach#~1.0.0"
   },
   "devDependencies": {
     "iron-component-page": "PolymerElements/iron-component-page#^1.0.0",
